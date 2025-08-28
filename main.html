@@ -9,22 +9,53 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+<div>
+	<h2 class="text-center p-3">Internship Form</h2>
 	<form>
   <div class="row">
     <div class="col">
 		<label>First Name</label>
-      <input type="text" class="form-control">
+      <input id="first-name-input" type="text" class="form-control">
     </div>
     <div class="col">
 		<label> Last Name</label>
-      <input type="text" class="form-control" >
+      <input id="last-name-input" type="text" class="form-control" >
     </div>
 	  <div class="col">
 		<label> Email</label>
-      <input type="email" class="form-control" placeholder="xyz@gmail.com">
+      <input id="email-input" type="email" class="form-control" placeholder="xyz@gmail.com">
     </div>
   </div>
+		 
+    <div class="col w-50">
+		<label>Collage</label>
+      <input id="college-input" type="text" class="form-control" >
+    </div>
+    <div class="col w-25">
+    <label>Graduation Year</label>
+    <select id="roll-no-input" class="form-control">
+      <option>Choose...</option>
+      <option>2020</option>
+      <option>2021</option>
+		<option>2022</option>
+		<option>2023</option>
+    </select>
+  </div>
+	  <div class="col w-25">
+		<label>Roll No</label>
+      <input id="roll-no-input" type="number" class="form-control">
+    </div>
+  </div>
+		
 </form>
+	<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="aCheck">
+  <label class="form-check-label" for="conditions-checkbox
+">
+    I agree to the terms and conditions
+  </label>
+</div>
+</div>
 	
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./script.js">
